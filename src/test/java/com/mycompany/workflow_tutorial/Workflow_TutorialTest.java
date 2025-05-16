@@ -84,9 +84,9 @@ public class Workflow_TutorialTest {
     @Test
     public void testDivide() {
         System.out.println("Divide");
-        double x = 2024.0;
-        double y = 2005.0;
-        double expResult =  1.0099750623441397;
+        double x = 25.0;
+        double y = 5.0;
+        double expResult =  5.0;
         double result = Workflow_Tutorial.Divide(x, y);
         assertEquals(expResult, result, 0);
         // TODO review the generated test code and remove the default call to fail.
